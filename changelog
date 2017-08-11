@@ -1,0 +1,3 @@
+0.1.4: Create the UI when added to an existing game.
+0.1.3: Fixed event handling for 0.15.10.
+0.1.0-0.1.2: Initial release
