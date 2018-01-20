@@ -1,6 +1,6 @@
 {
 	"name": "folk-colorequipment",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"title": "Color Equipment",
 	"description": "Creates tiny equipment modules that tries to set the color of whatever you insert them into.",
 	"author": "folk",
