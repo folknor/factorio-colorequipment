@@ -132,6 +132,11 @@ do
 	script.on_event(defines.events.on_player_created, function(event)
 		initGui(game.players[event.player_index])
 	end)
+	script.on_configuration_changed(function()
+		for _, p in pairs(game.players) do
+			if p.valid then initGui(p) end
+		end
+	end)
 end
 
 do
