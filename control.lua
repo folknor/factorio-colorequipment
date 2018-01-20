@@ -105,14 +105,14 @@ do
 			})
 		end
 		if not frame.grid then
-			local grid = frame.add({
+			frame.add({
 				type = "flow",
 				name = "grid",
 				direction = "horizontal"
 			})
-			grid.style.max_on_row = 4
-			grid.style.resize_row_to_width = true
-			grid.style.resize_to_row_height = true
+			--grid.style.max_on_row = 4
+			--grid.style.resize_row_to_width = true
+			--grid.style.resize_to_row_height = true
 		end
 
 		-- Remove all children of frame.grid

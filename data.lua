@@ -33,6 +33,7 @@ do
 						tint = color,
 					}
 				},
+				icon_size = 32,
 				placed_as_equipment_result = name,
 				flags = { "goes-to-main-inventory" },
 				subgroup = "equipment",
@@ -63,6 +64,7 @@ do
 		type = "item",
 		name = "folk-color-equipment",
 		icon = "__folk-colorequipment__/palette.png",
+		icon_size = 32,
 		flags = { "goes-to-main-inventory", "hidden" },
 		subgroup = "equipment",
 		order = "z",
